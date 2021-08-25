@@ -10,3 +10,4 @@ this repo takes a file upload of text, chucks it in temphome, then and allows fo
 
 it does not currently store this data under a gun hash, or allow for multiple file uploads
 
+p.s. we need to make vid playthrus a thing( maybe some cool backing soundtracks, circa 2005 school project animations )
