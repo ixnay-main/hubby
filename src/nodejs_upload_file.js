@@ -10,8 +10,8 @@ const hub = require('gun/lib/hub');
 // html file containing upload form
 var upload_html = fs.readFileSync("upload_file.html");
  
-// replace this with the location to save uploaded files
-var upload_path = "/Users/yenan/Desktop/GitHub/Series01/test/temphome/";
+// !!!!!!! replace xyz with your local path, this will NOT work otherwise
+var upload_path = "xyz/hubby/temphome/";
  
 http.createServer(function (request, response) {
     if (request.url == '/uploadform') {
@@ -55,6 +55,9 @@ http.createServer(function (request, response) {
                     response.write(data[`/temphome/${shortName}`]) // Get the content of index.html
                 })
                 
+             
+             //then store under hash
+             //then flush out temphome
  
 
                 response.end();
