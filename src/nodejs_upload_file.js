@@ -11,7 +11,8 @@ const hub = require('gun/lib/hub');
 var upload_html = fs.readFileSync("upload_file.html");
  
 // replace this with the location to save uploaded files
-var upload_path = "/Users/yenan/Desktop/GitHub/Series01/test/temphome/";
+//remember the / at the end!!
+var upload_path = "/Users/yenan/Desktop/GitHub/hubby/src/temphome/";
  
 http.createServer(function (request, response) {
     if (request.url == '/uploadform') {
